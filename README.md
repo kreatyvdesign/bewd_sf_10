@@ -20,6 +20,8 @@ From your master branch (`git branch`) in `bewd_sf_10` directory, pull from upst
 | ------ | ------ | ------- | --------- | -------- | ------ | -------- |
 | Kisha <br> 12-2pm | Nicole & Travis 5:30-6:30pm | Christine: <br> 5:30-6:30pm | Nicole: <br> 5:30-6:30pm | Christine <br> 5:30-6:30pm | Travis 5:30-6:30 | - | 
 
+#####Office hours sign-up sheet
+You can [sign-up for office hours here](https://docs.google.com/spreadsheets/d/1gb9rCmwyYv3L8d7C5t7JNNIcUto5KmQM1IEuJHU4fGo/edit#gid=5).  Please let us know when you're coming.
 
 ###Bonus Resources
 -------
