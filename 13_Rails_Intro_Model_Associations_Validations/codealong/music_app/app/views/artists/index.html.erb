@@ -1,0 +1,16 @@
+<h1>Listing Artists</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Text</th>
+  </tr>
+
+  <% @artists.each do |artist| %>
+    <tr>
+      <td><%= artist.id %></td>
+      <td><%= artist.name %></td>
+      <td><%= artist.description %></td>
+    </tr>
+  <% end %>
+</table>
