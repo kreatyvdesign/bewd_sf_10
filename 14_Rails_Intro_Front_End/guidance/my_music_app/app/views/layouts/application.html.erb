@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
   <title>MyMusicApp</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -10,5 +11,19 @@
 
 <%= yield %>
 
+=======
+  <title>Hype Music</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class=container-fluid>
+  <%= render 'layouts/main_nav' %> 
+  <%= yield %>
+</div>
+>>>>>>> f5a691ef6e2a2b9a8644d9a2e4fcc7913dfea728
 </body>
 </html>

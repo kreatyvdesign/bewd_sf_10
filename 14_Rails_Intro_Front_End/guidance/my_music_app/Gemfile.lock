@@ -40,12 +40,24 @@ GEM
       activerecord (>= 3.2, <= 4.3)
       rake (~> 10.4)
     arel (6.0.3)
+<<<<<<< HEAD
+=======
+    autoprefixer-rails (6.0.0)
+      execjs
+      json
+>>>>>>> f5a691ef6e2a2b9a8644d9a2e4fcc7913dfea728
     better_errors (2.1.1)
       coderay (>= 1.0.0)
       erubis (>= 2.6.6)
       rack (>= 0.9.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+<<<<<<< HEAD
+=======
+    bootstrap-sass (3.3.5.1)
+      autoprefixer-rails (>= 5.0.0.1)
+      sass (>= 3.3.0)
+>>>>>>> f5a691ef6e2a2b9a8644d9a2e4fcc7913dfea728
     builder (3.2.2)
     byebug (5.0.0)
       columnize (= 0.9.0)
@@ -131,6 +143,12 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+<<<<<<< HEAD
+=======
+    simple_form (3.1.1)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
+>>>>>>> f5a691ef6e2a2b9a8644d9a2e4fcc7913dfea728
     slop (3.6.0)
     spring (1.4.0)
     sprockets (3.3.4)
@@ -158,6 +176,10 @@ DEPENDENCIES
   annotate
   better_errors
   binding_of_caller
+<<<<<<< HEAD
+=======
+  bootstrap-sass (~> 3.3.5)
+>>>>>>> f5a691ef6e2a2b9a8644d9a2e4fcc7913dfea728
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
@@ -167,6 +189,10 @@ DEPENDENCIES
   rails (= 4.2.3)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+<<<<<<< HEAD
+=======
+  simple_form
+>>>>>>> f5a691ef6e2a2b9a8644d9a2e4fcc7913dfea728
   spring
   sqlite3
   turbolinks
