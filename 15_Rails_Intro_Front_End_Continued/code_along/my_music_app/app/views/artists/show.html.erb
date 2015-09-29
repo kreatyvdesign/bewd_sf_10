@@ -11,7 +11,28 @@
         </h1>
       </div>
       <div class="panel-body">
-        <p> <%= @artist.description %> </p>
+        <p style="color:#ccc;"> <%= @artist.description %> </p>
+      </div>
+      <div>
+          <%= simple_form_for([@artist, @artist.reviews.build]) do |f| %>
+            <%= f.input :rating, label: false, input_html: {placeholder: "Rating"} %>
+            <%= f.input :comment, label: false, as: :text, input_html: {placeholder: "Write Review"}%>
+            <%= f.submit "Submit".html_safe, class: "btn btn-lg btn-danger"%>
+          <%end %>
+      </div>
+      <div>
+        <h2>Reviews</h2>
+        <% @artist.reviews.each do |review| %>
+          <p style="color:#ccc;">
+            <strong>Rating:</strong>
+            <%= review.rating %>
+          </p>
+
+          <p style="color:#ccc;">
+            <strong>Comment:</strong>
+            <%= review.comment %>
+          </p>
+        <% end %>
       </div>
     </div>
 
